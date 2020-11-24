@@ -1,0 +1,79 @@
+html {
+    margin-left: 0px;
+    padding: 0px;
+  }
+
+  body {
+    justify-content: center;
+    display: flex;
+  }
+
+  body, input, button {
+    font-family: sans-serif;
+    font-size: 1.1em;
+}
+
+h1 {
+  font: 40px sans-serif;
+}
+
+.intro-container {
+  margin-bottom: 40px;
+}
+
+legend {
+  border-bottom: 2px solid #5a57f8;
+  margin-bottom: 30px;
+}
+
+.form-container {
+  justify-content: center;
+}
+
+.form-control {
+  margin-bottom: 1em;
+    color: #666;
+}
+
+.form-group input[type="text"] {
+    padding: 0.2em;
+    border: 1px solid #CCC;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+    width: 70%;
+    outline: none;
+}
+
+
+button {
+    background-color:#3633b8;
+    border-radius:28px;
+    border:1px solid #3f18ab;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:17px;
+    padding:16px 31px;
+    text-decoration:none;
+  }
+  
+  button:hover {
+    background-color:#4015b8;
+  }
+  button:active {
+    position:relative;
+    top:1px;
+  }
+
+
+.certificate-container {
+  width:100%;
+  height: 600px;
+  border: 6px solid #3633b8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    justify-content: center;
+
+}
